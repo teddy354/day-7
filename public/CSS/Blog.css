@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(227, 231, 235);
+}
+
+nav {
+    display: flex;
+    background-color: rgb(244, 243, 243);
+    height: 8vh;
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-contactme {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}

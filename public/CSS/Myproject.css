@@ -1,0 +1,130 @@
+.btn-contactme {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.myproject-form {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.myproject-form .form-container {
+    width: 500px;
+}
+
+.myproject-form .form-container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.myproject-form form .input-my-project-image-group {
+    width: 100%;
+    height: fit-content;
+    font-size: 10px;
+    font-weight: 200;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 12px;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+.myproject-form form .input-my-project-image-group label p {
+    font-size: 15px;
+}
+.myproject-form form .input-my-project-image-group label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.myproject-form form .input-my-project-image-group input {
+    cursor: pointer;
+}
+.contact-form {
+    width: 100%;
+}
+.form_date {
+    display: flex;
+    gap: 0.1rem;
+    width: auto;
+}
+.date {
+    width: 50%;
+    flex: 50%;
+    flex-direction: column;
+}
+
+.description {
+    display: flex;
+}
+.form-control label {
+    display: block;
+    margin-bottom: 0.875rem;
+    margin-top: 0.875rem;
+}
+
+.form-control input[type="text"],
+.form-control input[type="email"],
+.form-control input[type="date"],
+.form-control textarea,
+.form-control select {
+    display: block;
+    width: 100%;
+    border-radius: 0.25rem;
+    border: none;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.1);
+    outline: none;
+    padding: 0.75rem 1rem;
+}
+.input-checkbox {
+    display: flex;
+    gap: 0.875rem;
+    width: 50%;
+    max-width: 260px;
+    cursor: pointer;
+    margin-bottom: 0.875rem;
+    text-align: center;
+}
+.input-checkbox label {
+    font-weight: 400;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.form-control .tecnologies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-myproject {
+    text-align: center;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 420px;
+}
+
+.result-project {
+    background-color: #f8f8f8;
+    padding: 3rem 0;
+}
+.project-heading {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2rem;
+}

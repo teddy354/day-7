@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e2e6ea;
+    font-family: "Poppins", sans-serif;
+}
+
+.card {
+    background-color: white;
+    width: 80%;
+    height: 550px;
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-card {
+    width: 80%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    width: 55%;
+    height: 70%;
+}
+
+.container-content {
+    font-size: 13px;
+}
+
+.anchor {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.container-contact {
+    background-color: #111727;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.container-contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-contact a:hover {
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.container-cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-sosial {
+    margin-top: 50px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-sosial a img {
+    width: 30px;
+}
+
+.profile-card {
+    width: 40%;
+    height: 100%;
+    box-shadow: 0px 0px 10px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.profile-card img {
+    width: 100%;
+    height: 85%;
+    border-radius: 8px;
+}
+
+.profil-bio {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+}
+
+.container-form {
+    margin-top: 40px;
+}
+
+.form {
+    width: 25%;
+    margin: 70px auto;
+    text-align: left;
+}
+
+.my-project {
+    display: flex;
+    justify-content: center;
+}
+
+.my-project-form {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+#project-name {
+    box-sizing: border-box;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px;
+    width: 100%;
+}
+
+.date-p {
+    display: flex;
+}
+
+.start-date {
+    width: 50%;
+}
+
+.end-date {
+    width: 50%;
+}
+
+#start-date,
+#end-date {
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px;
+    width: 80%;
+    height: 35px;
+}
+
+#description-box {
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px;
+    height: 100px;
+}
+
+.form-checkbox {
+    margin-top: 25px;
+    display: flex;
+    color: #514a4a;
+    font-size: 20px;
+}
+
+.form-checkbox1 {
+    width: 45%;
+}
+
+.form-checkbox2 {
+    width: 45%;
+}
+
+.nodeJs {
+    margin-bottom: 10px;
+}
+
+.nextJs {
+    margin-bottom: 10px;
+}
+
+.image {
+    margin-top: 25px;
+}
+
+.input-image {
+    background-color: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    display: flex;
+    border-radius: 5px;
+}
+
+.input-image label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input-image label p {
+    background-color: #beb8b8;
+    border: 1px solid #c4c4c4;
+    height: 100%;
+    width: 90px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #787474;
+}
+
+.button-group {
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-group button {
+    background-color: #111727;
+    padding: 5px 25px;
+    font-size: 13px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.blog {
+    width: 100%;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.output-myproject {
+    text-align: center;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+}
+
+.post-blog {
+    width: 85%;
+    margin: 50px auto;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-blog {
+    /* background-color: blue; */
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.content-blog {
+    background-color: white;
+    width: 90%;
+    margin: 15px auto;
+    font-size: 10px;
+    padding-bottom: 15px;
+}
+
+/* .thumbnail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} */
+
+.thumbnail img {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.title-blog {
+    margin-top: 15px;
+    /* background-color: yellow; */
+}
+
+.description-output {
+    margin-top: 20px;
+}
+
+.technologies-output {
+    margin-top: 20px;
+    display: flex;
+}
+
+.technologies-output img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.opsi-blog {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-blog {
+    width: 49.5%;
+    height: 20px;
+    background-color: #111727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.edit-blog a {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(238, 237, 237);
+}
+
+.delete-blog {
+    width: 49.5%;
+    height: 20px;
+    background-color: #111727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.delete-blog a {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(238, 237, 237);
+}
+
+.card-blog a {
+    text-decoration: none;
+    color: black;
+}
+
+.title-blog p {
+    color: rgb(103, 103, 103);
+}
+
+.edit-blog a,
+.delete-blog a {
+    color: white;
+}
+/* end my project */
